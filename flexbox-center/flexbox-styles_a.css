@@ -1,0 +1,100 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.row {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+p {
+    font-size: 2em;
+    color: black;
+    font-family: Arial;
+}
+
+#please{
+    animation-name: expand; 
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-timing-function: ease-in-out;
+    color:darkseagreen
+}
+
+
+
+@keyframes expand {
+    
+    
+    0%{font-size: 2em;
+        
+    }
+    
+    100%{font-size: 5em;
+        
+    }}
+
+#line2{
+    width: 450px;
+    height: 40px;
+    animation-name: colorchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+   
+}
+
+@keyframes colorchange {
+    0%{background-color: antiquewhite;
+    color: rosybrown}
+    25%{background-color: azure;
+    color: mistyrose}
+    40%{background-color: lightcyan;
+    color: palevioletred}
+    
+    50%{background-color: skyblue; color:skyblue}
+
+    70% {background-color: palevioletred;
+    opacity: 20px; color:lightcyan}
+    85%{background-color: mistyrose}
+    
+    100%{background-color: rosybrown;color: antiquewhite}
+}
+
+#line1 { animation-name:poschange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function:linear;
+    color: lightblue
+    
+}
+
+
+@keyframes poschange {
+    
+    0% {transform: rotate3d(0)}
+    
+    50% {transform: rotate3d(1,1,1,180deg)
+        
+    }
+    
+    100%{transform: rotate3d(3,3,3,360deg)}
+}
+
+
+
+
