@@ -1,0 +1,102 @@
+p {}
+
+
+
+
+h1 {
+    font-family: 'Poiret One', cursive;
+    font-size: 60px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 40px
+}
+
+
+
+#lineOne {
+    color: gray;
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+    padding-left: 80px
+}
+
+#blue {
+    color: blue;
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+    padding-left: 2px
+}
+
+#lineTwo {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    color: lightpink;
+    padding-left: 80px;
+
+
+}
+
+#lineThree {
+    font-family: 'Cantarell', sans-serif;
+    ;
+    font-size: 30px;
+    background-color: lightgoldenrodyellow;
+    padding-left: 80px;
+}
+
+#linefour {
+    padding-left: 80px;
+    font-family: 'Quantico', sans-serif;
+    font-size: 35px;
+    color: seagreen
+}
+
+
+#linefive {
+    padding-left: 80px;
+    font-family: 'Gelasio', serif;
+    font-size: 35px;
+    color: cadetblue
+}
+
+#lineseven {
+    padding-left: 80px;
+    font-size: 35px;
+    font-family:'Permanent Marker', cursive;
+    color: sienna
+}
+
+#linesix {
+    padding-left: 80px;
+    font-size: 35px;
+    color:coral
+}
+
+
+#lineeight {
+    padding-left: 80px;
+    font-size: 35px;
+    font-family: 'Bilbo', cursive;
+}
+
+
+#linenine {
+    padding-left: 80px;
+    font-size: 35px;
+     font-family: 'Bilbo', cursive;
+    font-weight: 200px 
+}
+
+
+
+#lineten {
+    padding-left: 80px;
+    font-size: 35px
+}
+
+
+
+#lineeleven {
+    padding-left: 80px;
+    font-size: 35px
+}
