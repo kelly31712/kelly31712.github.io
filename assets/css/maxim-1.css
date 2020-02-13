@@ -1,0 +1,72 @@
+html { background-color: 
+    
+    
+}
+
+
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Vollkorn', serif;
+    font-size: ;
+    color: darkgray;
+    
+    
+}
+
+#red {
+    color: white;
+    animation-name: red;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+ 
+   
+    
+}
+
+
+@keyframes red {
+    0%{color: white;
+   }
+    25%{ color: lightcoral}
+    50% {color: indianred;}
+    75%{color: red}
+    
+    85%{ color: crimson;}
+    100%{color: darkred}
+}
+
+#blue {
+    color: white;
+    animation-name: blue;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out
+    
+}
+
+@keyframes blue {
+     0%{color: white;
+   }
+    25%{ color: aliceblue}
+    50% {color: skyblue;}
+    75%{color: cornflowerblue}
+    
+    85%{ color: deepskyblue;}
+    100%{color: darkblue}
+     
+}
+
+#back {
+    display: flex;
+    position:
+}
+
+
